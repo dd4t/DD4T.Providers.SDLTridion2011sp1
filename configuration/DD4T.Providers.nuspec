@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns:nuget="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>DD4T.Providers.SDLTridion2011sp1</id>
@@ -11,7 +11,7 @@
     </releaseNotes>
     <tags>SDLTridion Tridion DD4T</tags>
     <dependencies>
-      <dependency id="DD4T.NET" version="2.0.0.0" />
+      <dependency id="DD4T.Core" version="2.0.0" />
     </dependencies>
   </metadata>
 </package>
