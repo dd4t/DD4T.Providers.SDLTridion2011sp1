@@ -68,6 +68,10 @@
       <HintPath>..\packages\DD4T.Core.2.0.5-beta\lib\net45\DD4T.ViewModels.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="netrtsn">
+      <HintPath>..\packages\sdl-tridion-content-delivery-2011-sp1.1.0.2\lib\netrtsn.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -79,23 +83,19 @@
     <Reference Include="System.Web" />
     <Reference Include="System.Data" />
     <Reference Include="Tridion.ContentDelivery">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\sdl-tridion-content-delivery-2011-sp1.1.0.2\lib\net45\Tridion.ContentDelivery.dll</HintPath>
+      <HintPath>..\packages\sdl-tridion-content-delivery-2011-sp1.1.0.2\lib\Tridion.ContentDelivery.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Tridion.ContentDelivery.AmbientData">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\sdl-tridion-content-delivery-2011-sp1.1.0.2\lib\net45\Tridion.ContentDelivery.AmbientData.dll</HintPath>
+      <HintPath>..\packages\sdl-tridion-content-delivery-2011-sp1.1.0.2\lib\Tridion.ContentDelivery.AmbientData.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Tridion.ContentDelivery.Configuration">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\sdl-tridion-content-delivery-2011-sp1.1.0.2\lib\net45\Tridion.ContentDelivery.Configuration.dll</HintPath>
+      <HintPath>..\packages\sdl-tridion-content-delivery-2011-sp1.1.0.2\lib\Tridion.ContentDelivery.Configuration.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Tridion.ContentDelivery.Interop">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\sdl-tridion-content-delivery-2011-sp1.1.0.2\lib\net45\Tridion.ContentDelivery.Interop.dll</HintPath>
+      <HintPath>..\packages\sdl-tridion-content-delivery-2011-sp1.1.0.2\lib\Tridion.ContentDelivery.Interop.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
