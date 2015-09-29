@@ -34,7 +34,7 @@ namespace DD4T.Providers.SDLTridion2011sp1
             _cmFactoryList = new Dictionary<int, TMeta.ComponentMetaFactory>();
         }
 
-        #region IComponentProvider
+        #region IComponentPresentationProvider
         public string GetContent(string uri, string templateUri = "")
         {
             LoggerService.Debug(">>GetContent({0})", LoggingCategory.Performance, uri);
@@ -80,7 +80,7 @@ namespace DD4T.Providers.SDLTridion2011sp1
             {
                 if (_cp != null)
                 {
-                    if (_cp.Content.Contains("<Component"))
+                    if (_cp.Content.Contains("<Component") || _cp.Content.Contains("{\"Component\""))
                     {
                         LoggerService.Debug("<<GetContent({0}) - find all", LoggingCategory.Performance, uri);
                         return _cp.Content;
