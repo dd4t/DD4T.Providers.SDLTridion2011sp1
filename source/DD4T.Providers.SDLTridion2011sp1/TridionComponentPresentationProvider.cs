@@ -34,7 +34,7 @@ namespace DD4T.Providers.SDLTridion2011sp1
             _cmFactoryList = new Dictionary<int, TMeta.ComponentMetaFactory>();
         }
 
-        #region IComponentProvider
+        #region IComponentPresentationProvider
         public string GetContent(string uri, string templateUri = "")
         {
             LoggerService.Debug(">>GetContent({0})", LoggingCategory.Performance, uri);
@@ -72,6 +72,7 @@ namespace DD4T.Providers.SDLTridion2011sp1
                     return cp.Content;
                 }
             }
+
             LoggerService.Debug("GetContent: about to get component presentations with Highst Priority for {0}", LoggingCategory.Performance, tcmUri.ToString());
             cp = cpFactory.GetComponentPresentationWithHighestPriority(tcmUri.ItemId);
             LoggerService.Debug("GetContent: get component presentations with Highst Priority for {0}", LoggingCategory.Performance, tcmUri.ToString());
@@ -85,6 +86,7 @@ namespace DD4T.Providers.SDLTridion2011sp1
             //        return _cp.Content;
             //    }
             //}
+
             LoggerService.Debug("<<GetContent({0}) - not found", LoggingCategory.Performance, uri);
             return string.Empty;
         }
