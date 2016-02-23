@@ -80,7 +80,7 @@
     <Reference Include="System.Data" />
     <Reference Include="Tridion.ContentDelivery, Version=6.1.0.348, Culture=neutral, PublicKeyToken=ddfc895746e5ee6b, processorArchitecture=MSIL">
       <HintPath>..\packages\sdl-tridion-content-delivery-2011-sp1.1.0.2\lib\net45\Tridion.ContentDelivery.dll</HintPath>
-      <Private>True</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Tridion.ContentDelivery.AmbientData, Version=6.1.0.348, Culture=neutral, PublicKeyToken=ddfc895746e5ee6b, processorArchitecture=AMD64">
       <HintPath>..\packages\sdl-tridion-content-delivery-2011-sp1.1.0.2\lib\net45\Tridion.ContentDelivery.AmbientData.dll</HintPath>
@@ -88,11 +88,11 @@
     </Reference>
     <Reference Include="Tridion.ContentDelivery.Configuration, Version=6.1.0.348, Culture=neutral, PublicKeyToken=ddfc895746e5ee6b, processorArchitecture=MSIL">
       <HintPath>..\packages\sdl-tridion-content-delivery-2011-sp1.1.0.2\lib\net45\Tridion.ContentDelivery.Configuration.dll</HintPath>
-      <Private>True</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Tridion.ContentDelivery.Interop, Version=6.1.0.43, Culture=neutral, PublicKeyToken=ddfc895746e5ee6b, processorArchitecture=MSIL">
       <HintPath>..\packages\sdl-tridion-content-delivery-2011-sp1.1.0.2\lib\net45\Tridion.ContentDelivery.Interop.dll</HintPath>
-      <Private>True</Private>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
