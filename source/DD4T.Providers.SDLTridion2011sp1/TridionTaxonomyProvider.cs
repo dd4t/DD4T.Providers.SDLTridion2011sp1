@@ -123,7 +123,7 @@ namespace DD4T.Providers.SDLTridion2011sp1
             Keyword returnValue = null;
             foreach (var item in keywords)
             {
-                if (item.KeywordName == valueToLookFor)
+                if (item.KeywordName.Equals(valueToLookFor, StringComparison.InvariantCultureIgnoreCase))
                 {
                     returnValue = item;
                 }
